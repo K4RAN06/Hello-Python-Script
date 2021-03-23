@@ -1,0 +1,46 @@
+import time
+
+firstname = input('Please enter your first name: ')
+print('Your First name is:',firstname)
+#The program tell you your First name after inputing it into the computer
+
+print('')
+
+time.sleep(0.5)
+Surname=input('Please enter your Surname: ')
+print('Your Surname is:',Surname)
+#The program tell you your Surname name after inputing it into the computer
+
+print('')
+
+time.sleep(0.5)
+age=input('Please enter your age: ')
+print('You are:',age,'Years old')
+#The program tell you your Age and 'Years old' after you input it into the computer
+
+print('')
+
+time.sleep(0.5)
+mood = input("How are you feeling today?: ")
+print('You are feeling:',mood,'Today')
+#The program tells you your mood after you input it into the computer
+
+print('')
+
+time.sleep(1)
+print('Information about you : Your name is',firstname,Surname   , 'you are' ,age, 'years old and you feel',mood,'today')
+#The program recieves information from the last few kquestions to fill in a string about you.
+
+print('')
+
+answer = input("Does This Sound Correct? Yes or No: ") 
+if answer == "Yes": 
+    print("Thanks So Much For Your Input!") 
+elif answer == "No": 
+    print("If It Is Wrong Please Try Again") 
+else: 
+    print("Please enter yes or no.")
+
+time.sleep(2)
+exit = input('Press anything to exit: ')
+#This is an input which will exit the program if anything is input
